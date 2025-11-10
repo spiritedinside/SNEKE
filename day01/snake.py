@@ -15,7 +15,7 @@ clock = pygame.time.Clock()
 # Set game values
 SNAKE_SIZE = 20
 head_x = WINDOW_WIDTH // 2
-head_y = WINDOW_HEIGHT + 100 // 2
+head_y = WINDOW_HEIGHT // 2 + 100
 snake_dx = 0
 snake_dy = 0
 score = 0
