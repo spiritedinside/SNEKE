@@ -39,7 +39,6 @@ font = pygame.font.SysFont('gabriola', 48)
 title_text = font.render("~~Snake~~", True, GREEN, DARKRED) #make a text object
 title_rect = title_text.get_rect() # gets the box containing the text object
 title_rect.center = (WINDOW_WIDTH//2, WINDOW_HEIGHT//2) # places the box containing the text object's center to the middle of the screen.
-
 #TODO: make a score_text object and assign a font render to it with text "Score: 0", antialias of True, color of GREEN, background color of DARKRED
 #TODO: make a score_rect object by assigning score_text.get_rect() to it.
 #TODO: place the topleft of score_rect to an x coordinate of 10 and y coordinate of 10
